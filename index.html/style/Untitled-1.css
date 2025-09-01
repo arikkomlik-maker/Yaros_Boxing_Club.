@@ -9,7 +9,7 @@ header {
     position: relative;
 }
 .logo {
-    height: 48px;
+    height: 60px;
     border-radius: 50%;
     background: linear-gradient(135deg, #1a1a1a 60%, #b22222 100%);
     box-shadow: 0 2px 12px #0008;
@@ -34,4 +34,5 @@ header {
     margin: 0 8px;
     word-break: break-word;
 }
+
 
