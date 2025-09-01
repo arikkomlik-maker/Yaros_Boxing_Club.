@@ -186,9 +186,31 @@
                 height: auto;
             }
         }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 2px solid #b22222;
+            position: relative;
+        }
+        .header-center {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            flex-grow: 1;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+        }
     </style>
 </head>
 <body>
+    <header>
+        <img src="img/Img заговоловк.jpg" alt="Логотип" class="logo">
+        <span class="header-center">Yaros Boxing Club</span>
+        <img src="img/Img заговоловк.jpg" alt="Логотип" class="logo">
+    </header>
     <a href="index.html" class="back-logo-link" title="На головну">
         <img src="img/Img заговоловк.jpg" alt="Yaros Boxing Club">
     </a>
