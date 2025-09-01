@@ -38,8 +38,8 @@
             box-shadow: 0 4px 24px #b22222, 0 2px 12px #0008;
         }
         .gallery-row img {
-            width: 60px;
-            height: 60px;
+            width: 260px;
+            height: 180px;
             object-fit: cover;
             border-radius: 12px;
             background: #000;
@@ -170,21 +170,13 @@
             margin-left: auto;
             margin-right: auto;
         }
-        @media (max-width: 700px) {
-            .logo-row {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .contacts-map-center {
-                padding: 18px 4vw 10px 4vw;
-            }
-            .map-iframe {
-                height: 220px;
-            }
-            .gallery-row img {
-                width: 90vw;
-                height: auto;
-            }
+        .logo {
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1a1a1a 60%, #b22222 100%);
+            box-shadow: 0 2px 12px #0008;
+            border: 2px solid #b22222;
+            padding: 6px;
         }
         header {
             display: flex;
@@ -277,5 +269,4 @@
     </iframe>
     </div>
 </body>
-
 </html>
