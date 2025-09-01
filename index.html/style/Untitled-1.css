@@ -35,28 +35,3 @@ header {
     word-break: break-word;
 }
 
-/* --- Мобильная адаптация --- */
-@media (max-width: 70px) {
-    header {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 8px 4vw;
-    }
-    .logo {
-        height: 32px;
-        padding: 2px;
-        margin: 0 4px;
-    }
-    .header-center {
-        font-size: 16px;
-        margin: 0 4px;
-        padding: 0 2px;
-        background: none;
-        -webkit-text-fill-color: #fff;
-        text-shadow: 1px 1px 6px #000;
-        white-space: normal;
-        word-break: break-word;
-    }
-
-}
