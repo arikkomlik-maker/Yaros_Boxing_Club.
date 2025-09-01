@@ -9,13 +9,16 @@ header {
     position: relative;
 }
 .logo {
-    height: 60px;
+    height: 48px;
     border-radius: 50%;
     background: linear-gradient(135deg, #1a1a1a 60%, #b22222 100%);
     box-shadow: 0 2px 12px #0008;
     border: 2px solid #b22222;
     padding: 4px;
-    margin: 0 8px;
+    margin: 0 0 0 16px; /* Логотип справа теперь с отступом слева */
+}
+.logo:first-child {
+    margin: 0 16px 0 0; /* Логотип слева с отступом справа */
 }
 .header-center {
     flex: 1 1 auto;
@@ -34,5 +37,4 @@ header {
     margin: 0 8px;
     word-break: break-word;
 }
-
 
